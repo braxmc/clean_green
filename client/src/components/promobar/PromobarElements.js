@@ -9,15 +9,11 @@ export const Wrap = styled.div`
 `
 
 export const Promo = styled.h1`
-  font-size: 25px;
+  font-size: 24px;
 `
 
 export const Number = styled.h1`
-  font-size: 25px;
-`
-
-export const Mail = styled.h1`
-  font-size: 25px;
+  font-size: 24px;
 `
 
 export const Info = styled.div`

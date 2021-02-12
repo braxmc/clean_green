@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import { Link } from 'react-router-dom'
+
 export const Wrap = styled.div`
   height:16vh;
   background-color: #242526;
@@ -15,13 +17,18 @@ export const Img = styled.img`
 
 export const NavWrap = styled.div`
   display: flex;
-  align-items: flex-end;
 `
 
-export const Nav = styled.p`
+export const Nav = styled(Link)`
   display: flex;
   align-items: flex-end;
   color: white;
   height: 100%;
-  padding-right: 10px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+
+  &:hover {
+    color: #60BC46;
+  }
 `

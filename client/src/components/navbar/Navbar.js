@@ -1,19 +1,26 @@
 import React from 'react'
 
+import { withRouter } from 'react-router-dom'
+
 import { Wrap, Img, NavWrap, Nav } from './NavbarElements'
 
 import Logo from '../images/logo2.png'
 
 const Navbar = () => (
   <Wrap>
-    <Img src={Logo} alt='logo' />
+    <Nav to='/'><Img src={Logo} alt='logo' /></Nav>
     <NavWrap>
-      <Nav>Home</Nav>
-      <Nav>About</Nav>
-      <Nav>Services</Nav>
-      <Nav>contact</Nav>
+      <Nav to='/'>Home</Nav>
+      <Nav to='/about'>About</Nav>
+      <Nav to='/services'>Services</Nav>
+      <Nav to='/contact'>Contact</Nav>
     </NavWrap>
   </Wrap>
 )
 
-export default Navbar;
+export const ConnectedNavbar = () => {
+  return (
+    <Navbar />
+  );
+};
+export default withRouter(ConnectedNavbar);
