@@ -1,9 +1,11 @@
 import React from 'react'
 
+import { AboutWrap } from './AboutElements'
+
 const About = () => (
-  <>
-  About
-  </>
+  <AboutWrap>
+  
+  </AboutWrap>
 )
 
 export default About;

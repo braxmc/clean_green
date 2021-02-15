@@ -13,7 +13,7 @@ export const ContactWrap = styled.div`
 export const ContactTitle = styled.h1`
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
-  padding: 60px 0px;
+  padding: 40px 0px;
 
   background: linear-gradient(to right, #60BC46, #019DD0);
   -webkit-background-clip: text;
