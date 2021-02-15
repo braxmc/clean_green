@@ -4,7 +4,7 @@ import { HomeWrap, HeaderWrap, HeaderCard, Header, Ul, Info, ServicesWrap, Regul
 
 import Service1 from '../images/sample2.jpg'
 import Service2 from '../images/sample1.jpg'
-import Service3 from '../images/sample3.png'
+import Service3 from '../images/sample3.jpg'
 import Service4 from '../images/sample4.jpg'
 
 import Phone from '../images/PhoneIcon.png'
@@ -48,9 +48,9 @@ const Home = () => (
         <InfoWrap>
           <ServiceCard>
             <ServiceTitle>Residential Cleaning</ServiceTitle>
-            <ServiceInfo>Sample text</ServiceInfo>
-            <ServiceInfo>Sample text</ServiceInfo>
-            <ServiceInfo>Sample text</ServiceInfo>
+            <ServiceInfo>Pet Friendly</ServiceInfo>
+            <ServiceInfo>Monthly, Bi-Weekly, Weekly</ServiceInfo>
+            <ServiceInfo>Eco Friendly Cleaning Supplies</ServiceInfo>
             <Nav to='/services'>
               <BlueButton>Learn More</BlueButton>
             </Nav>
@@ -62,9 +62,9 @@ const Home = () => (
         <InfoWrap>
           <ServiceCard>
             <ServiceTitle>Business Cleaning</ServiceTitle>
-            <ServiceInfo>Sample text</ServiceInfo>
-            <ServiceInfo>Sample text</ServiceInfo>
-            <ServiceInfo>Sample text</ServiceInfo>
+            <ServiceInfo>Eco Friendly</ServiceInfo>
+            <ServiceInfo>Monthly, Bi-Weekly, Weekly</ServiceInfo>
+            <ServiceInfo>Eco Friendly Cleaning Supplies</ServiceInfo>
             <Nav to='/services'>
               <GreenButton>Learn More</GreenButton>
             </Nav>
@@ -76,9 +76,9 @@ const Home = () => (
         <InfoWrap>
           <ServiceCard>
             <ServiceTitle>One Time Cleaning</ServiceTitle>
-            <ServiceInfo>Sample text</ServiceInfo>
-            <ServiceInfo>Sample text</ServiceInfo>
-            <ServiceInfo>Sample text</ServiceInfo>
+            <ServiceInfo>Move In/Move Out</ServiceInfo>
+            <ServiceInfo>Residential Or Business</ServiceInfo>
+            <ServiceInfo>One And Done, No Strings Attached</ServiceInfo>
             <Nav to='/services'>
               <BlueButton>Learn More</BlueButton>
             </Nav>
@@ -90,9 +90,9 @@ const Home = () => (
         <InfoWrap>
           <ServiceCard>
             <ServiceTitle>Post-Construction Cleaning</ServiceTitle>
-            <ServiceInfo>Sample text</ServiceInfo>
-            <ServiceInfo>Sample text</ServiceInfo>
-            <ServiceInfo>Sample text</ServiceInfo>
+            <ServiceInfo>Post-Remodel</ServiceInfo>
+            <ServiceInfo>New Construction</ServiceInfo>
+            <ServiceInfo>Make Your New Additions Sparkle</ServiceInfo>
             <Nav to='/services'>
               <GreenButton>Learn More</GreenButton>
             </Nav>

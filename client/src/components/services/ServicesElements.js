@@ -19,6 +19,12 @@ export const ServicesTitle = styled.h1`
   -webkit-text-fill-color: transparent;
 `
 
+export const ServicesTitle2 = styled.h3`
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+`
+
 export const ServicesCard = styled.div`
   display: flex;
   flex-direction: column;
@@ -52,5 +58,5 @@ export const CardInfo = styled.li`
 `
 
 export const CardWrap = styled.div`
-  padding: 25px 0;
+  padding: 15px 0;
 `

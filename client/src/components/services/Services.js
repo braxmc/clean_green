@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ServicesWrap, ServicesTitle, ServicesCard, CardTitle, CardTitle2, CardInfo, CardWrap } from './ServicesElements'
+import { ServicesWrap, ServicesTitle, ServicesTitle2, ServicesCard, CardTitle, CardTitle2, CardInfo, CardWrap } from './ServicesElements'
 
 const Services = () => (
   <ServicesWrap>
     <ServicesTitle>Our Services</ServicesTitle>
+    <ServicesTitle2>*All pricing based on quote</ServicesTitle2>
     <CardWrap>
       <ServicesCard>
         <CardTitle>Residential Cleaning</CardTitle>
