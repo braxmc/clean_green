@@ -21,7 +21,7 @@ const Home = () => (
           <Info>We use products that are not only good for your home, but for the planet as well!</Info>
           <Info>We offer cleaning services for residential homes, businesses, and post-construction homes.</Info>
           </Ul>
-        </HeaderCard>
+        </HeaderCard> 
       </HeaderWrap>
     </HomeWrap>
     <ContactWrap>
@@ -58,7 +58,7 @@ const Home = () => (
         </InfoWrap>
       </Regular>
       <Flip>
-        <Icon src={Service2} alt='Picture of business cleaning' />
+        <Img src={Service2} alt='Picture of business cleaning' />
         <InfoWrap>
           <ServiceCard>
             <ServiceTitle>Business Cleaning</ServiceTitle>

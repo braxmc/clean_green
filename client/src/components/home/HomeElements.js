@@ -110,19 +110,19 @@ export const Regular = styled.div`
   display: flex;
   flex-direction: row-reverse;
   background-color: #72C5E4;
-  height: 450px;
+  height: 400px;
 `
 
 export const Flip = styled.div`
   display: flex;
   background-color: #A3D897;
-  height: 450px;
+  height: 400px;
 `
 
 export const Img = styled.img`
   display: flex;
   align-self: center;
-  height: 450px;
+  height: 400px;
   width: 50%;
 `
 
