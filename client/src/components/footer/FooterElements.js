@@ -7,7 +7,7 @@ export const FooterWrap = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 225px;
+  height: 30vh;
   background-color: #242526;
 `
 
